@@ -1,0 +1,142 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r}
+library(lme4)
+contr.slide <- function (n, contrasts = TRUE, sparse = FALSE)
+{
+  if (length(n) <= 1L) {
+    if (is.numeric(n) && length(n) == 1L && n > 1L)
+      levels <- seq_len(n)
+    else stop("not enough degrees of freedom to define contrasts")
+  }
+  else levels <- n
+  levels <- as.character(levels)
+  if (contrasts==TRUE) {
+    n <- length(levels)
+    cont <- array(0, c(n, n - 1L), list(levels, NULL))
+    
+    cont[col(cont) > row(cont) -1L] <- -unlist(sapply(seq_len(n-1L),
+                                                      function(x) {rep(n-x,x)}))
+    cont[col(cont) <= row(cont) -1L] <- unlist(sapply(rev(seq_len(n-1L)),
+                                                      function(x) {rep(n-x,x)}))
+    colnames(cont) <- NULL
+    if (sparse)
+      get(".asSparse", envir = asNamespace("stats"), inherits = FALSE)(cont)
+    else cont
+  }
+  else get(".Diag", envir = asNamespace("stats"), inherits = FALSE)(levels, sparse = sparse)
+}
+```
+
+```{r}
+data <- read.csv('data/human_long_real.csv')
+
+```
+
+```{r}
+# verbs
+verb.for <- subset(data,grepl('verb-typefor',variable))
+verb.for.mean <- aggregate(verb.for$value, list(verb.for$SubjectID),mean)
+mean(verb.for.mean$x)
+wilcox.test(verb.for.mean$x,mu=0.5)
+verb.in <- subset(data,grepl('verb-typein',variable))
+verb.in.mean <- aggregate(verb.in$value, list(verb.for$SubjectID),mean)
+mean(verb.in.mean$x)
+wilcox.test(verb.in.mean$x,mu=0.5)
+
+
+verb.for$category = 'atelicVerb'
+verb.in$category = 'telicverb'
+vb <- rbind(verb.for,verb.in)
+vb$category <- factor(vb$category)
+x<- glmer(value ~ category+(1+category|SubjectID),data=vb,family = binomial, control = glmerControl(optimizer = "bobyqa",nAGQ = 10))
+summary(x)
+summary(glm(value~category,family = binomial，data=vb))
+
+```
+
+```{r}
+#NP
+# verbs
+NP.for <- subset(data,grepl('Boundariesfor',variable))
+NP.for$category = 'for'
+NP.for.mean <- aggregate(NP.for$value, list(NP.for$SubjectID),mean)
+mean(NP.for.mean$x)
+wilcox.test(NP.for.mean$x,mu=0.5)
+
+NP.a <- subset(data,grepl('Boundariesain',variable))
+NP.a$category = 'a'
+NP.a.mean <- aggregate(NP.a$value, list(NP.a$SubjectID),mean)
+mean(NP.a.mean$x)
+wilcox.test(NP.a.mean$x,mu=0.5)
+
+
+NP.the <- subset(data,grepl('Boundariesthein',variable))
+NP.the$category = 'the'
+NP.the.mean <- aggregate(NP.the$value, list(NP.the$SubjectID),mean)
+mean(NP.the.mean$x)
+wilcox.test(NP.the.mean$x,mu=0.5)
+
+NP.num <- subset(data,grepl('Boundariesnumin',variable))
+NP.num$category = 'num'
+NP.num.mean <- aggregate(NP.num$value, list(NP.num$SubjectID),mean)
+mean(NP.num.mean$x)
+wilcox.test(NP.num.mean$x,mu=0.5)
+
+NP.other <- subset(data,grepl('Boundariesotherin',variable))
+NP.other$category = 'other'
+NP.other.mean <- aggregate(NP.other$value, list(NP.other$SubjectID),mean)
+mean(NP.other.mean$x)
+wilcox.test(NP.other.mean$x,mu=0.5)
+
+NP <- rbind(NP.for,NP.a,NP.the,NP.num,NP.other)
+NP$category <- factor(NP$category)
+levels(NP$category)
+NP$category = relevel(NP$category,"num")
+x<-glmer(value ~ category+(1|SubjectID),data=NP, family = binomial)
+summary(x)
+
+x<-glm(value ~ category,data=NP, family = binomial)
+summary(x)
+```
+```{r}
+# resultative structure
+#NP
+RES.in <- subset(data,grepl('resultative clausesin',variable))
+RES.in.mean <- aggregate(RES.in$value, list(RES.in$SubjectID),mean)
+mean(RES.in.mean$x)
+wilcox.test(RES.in.mean$x,mu=0.5)
+
+RES.for <- subset(data,grepl('resultative clausesfor',variable))
+RES.for.mean <- aggregate(RES.for$value, list(RES.for$SubjectID),mean)
+mean(RES.for.mean$x)
+wilcox.test(RES.for.mean$x,mu=0.5)
+
+```
+```{r}
+# context
+# Resultative
+CON.in <- subset(data,grepl('word knowledgein',variable))
+CON.in <- subset(CON.in,!CON.in$variable%in% c("word knowledgein90"))
+
+CON.in.mean <- aggregate(CON.in$value, list(CON.in$SubjectID),mean)
+mean(CON.in.mean$x)
+wilcox.test(CON.in.mean$x,mu=0.5)
+
+CON.for <- subset(data,grepl('word knowledgefor',variable))
+CON.for <- subset(CON.for,!CON.for$variable%in% c("word knowledgefor91"))
+CON.for.mean <- aggregate(CON.for$value, list(CON.for$SubjectID),mean)
+mean(CON.for.mean$x)
+wilcox.test(CON.for.mean$x,mu=0.5)
+```
+
+
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.

@@ -1,0 +1,25 @@
+transitivity.intransitive.na:John [V] in/for 5 [TimeUnit].
+transitivity.transitive.animate:John [V] her in/for 5 [TimeUnit].
+transitivity.transitive.animate:John [V] him in/for 5 [TimeUnit].
+transitivity.transitive.between:John [V] them in/for 5 [TimeUnit].
+transitivity.transitive.inanimate:John [V] those in/for 5 [TimeUnit].
+transitivity.transitive.inanimate:John [V] it in/for 5 [TimeUnit].
+boundednoun.undefinite.singular:Mary did not [V] a single [N] but John [V] a [N] in/for 2 [TimeUnit].
+boundednoun.undefinite.plural:Mary did not [V] a single [N] but John [V] [N]s in/for 2 [TimeUnit].
+boundednoun.undefinite.plural:Mary did not [V] a single [N] but John [V] three [N]s in/for 2 [TimeUnit].
+res.base:John [V] it again and again. He [V] it in/for 5 [TimeUnit].
+res.res:John [V] it again and again. He [V] it in half in/for 5 [TimeUnit].
+res.res:John [V] it again and again. He [V] it empty in/for 5 [TimeUnit].
+res.res:John [V] it again and again. He [V] it open in/for 5 [TimeUnit].
+res.res:John [V] it again and again. He [V] it down in/for 5 [TimeUnit].
+res.res:John [V] it again and again. He [V] it smooth in/for 5 [TimeUnit].
+res.res:John [V] it again and again. He [V] it flat in/for 5 [TimeUnit].
+res.res:John [V] it again and again. He [V] it clean in/for 5 [TimeUnit].
+context.transitive.base:John [V] it in/for 5 [TimeUnit].
+context.transitive.atelic:John [V] it in/for 5 [TimeUnit] and he is still doing it.
+context.transitive.telic.adversial:John [V] it in/for 5 [TimeUnit] but Mary is still doing it.
+context.transitive.atelic:John [V] it in/for 5 [TimeUnit] and he has not finished it.
+context.intransitive.telic:John [V] it in/for 5 [TimeUnit] but Mary has not finished it.
+goal.transitive.goal:John [V] it to the place in/for 2 [TimeUnit].
+goal.transitive.nogoal:John [V] it in the place in/for 2 [TimeUnit].
+goal.transitive.base:John [V] it in/for 2 [TimeUnit].

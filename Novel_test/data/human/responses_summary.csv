@@ -1,0 +1,61 @@
+,Number,category,sentence,for_ratio_l1,for_std_l1,for_ratio_l2,for_std_l2
+0,1,TRANS.intransitive,John [VERB] in/for 5 seconds.,0.833333333,0.372677996,0.733333333,0.442216639
+1,2,TRANS.intransitive,John [VERB] in/for 5 hours.,0.933333333,0.249443826,1,0
+2,3,TRANS.intransitive,John [VERB] in/for 5 weeks.,0.966666667,0.179505494,0.9,0.3
+3,4,TRANS.intransitive,John [VERB] in/for 5 years.,0.966666667,0.179505494,0.966666667,0.179505494
+4,5,TRANS.transitive,John [VERB] him in/for 5 seconds.,0.7,0.458257569,0.666666667,0.471404521
+5,6,TRANS.transitive,John [VERB] him in/for 5 hours.,0.866666667,0.339934634,0.833333333,0.372677996
+6,7,TRANS.transitive,John [VERB] him in/for 5 weeks.,0.966666667,0.179505494,0.766666667,0.422952585
+7,8,TRANS.transitive,John [VERB] him in/for 5 years.,1,0,0.866666667,0.339934634
+8,9,TRANS.transitive,John [VERB] it in/for 5 seconds.,0.466666667,0.498887652,0.5,0.5
+9,10,TRANS.transitive,John [VERB] it in/for 5 hours.,0.633333333,0.48189441,0.633333333,0.48189441
+10,11,TRANS.transitive,John [VERB] it in/for 5 weeks.,0.733333333,0.442216639,0.633333333,0.48189441
+11,12,TRANS.transitive,John [VERB] it in/for 5 years.,0.766666667,0.422952585,0.666666667,0.471404521
+12,13,NOUN.det,John [VERB] three [Noun]s in/for 2 seconds.,0.1,0.3,0.1,0.3
+13,14,NOUN.det,John [VERB] three [Noun]s in/for 2 hours.,0.3,0.458257569,0.166666667,0.372677996
+14,15,NOUN.det,John [VERB] three [Noun]s in/for 2 weeks.,0.266666667,0.442216639,0.233333333,0.422952585
+15,16,NOUN.det,John [VERB] three [Noun]s in/for 2 years.,0.366666667,0.48189441,0.233333333,0.422952585
+16,17,NOUN.indet,John [VERB] [Noun]s in/for 2 seconds.,0.533333333,0.498887652,0.233333333,0.422952585
+17,18,NOUN.indet,John [VERB] [Noun]s in/for 2 hours.,0.666666667,0.471404521,0.633333333,0.48189441
+18,19,NOUN.indet,John [VERB] [Noun]s in/for 2 weeks.,0.633333333,0.48189441,0.666666667,0.471404521
+19,20,NOUN.indet,John [VERB] [Noun]s in/for 2 years.,0.833333333,0.372677996,0.866666667,0.339934634
+20,21,NOUN.deta,John [VERB] a [Noun] in/for 2 seconds.,0.266666667,0.442216639,0.2,0.4
+21,22,NOUN.deta,John [VERB] a [Noun] in/for 2 hours.,0.266666667,0.442216639,0.433333333,0.495535625
+22,23,NOUN.deta,John [VERB] a [Noun] in/for 2 weeks.,0.4,0.489897949,0.433333333,0.495535625
+23,24,NOUN.deta,John [VERB] a [Noun] in/for 2 years.,0.7,0.458257569,0.566666667,0.495535625
+24,25,REST.resultative,John [VERB] it in half in/for 5 seconds.,0.333333333,0.471404521,0.266666667,0.442216639
+25,26,REST.resultative,John [VERB] it in half in/for 5 hours.,0.433333333,0.495535625,0.433333333,0.495535625
+26,27,REST.resultative,John [VERB] it in half in/for 5 weeks.,0.533333333,0.498887652,0.266666667,0.442216639
+27,28,REST.resultative,John [VERB] it in half in/for 5 years.,0.666666667,0.471404521,0.566666667,0.495535625
+28,29,REST.resultative,John [VERB] it empty in/for 5 seconds.,0.333333333,0.471404521,0.166666667,0.372677996
+29,30,REST.resultative,John [VERB] it empty in/for 5 hours.,0.433333333,0.495535625,0.266666667,0.442216639
+30,31,REST.resultative,John [VERB] it empty in/for 5 weeks.,0.4,0.489897949,0.366666667,0.48189441
+31,32,REST.resultative,John [VERB] it empty in/for 5 years.,0.633333333,0.48189441,0.433333333,0.495535625
+32,33,CONTEXT.telic,John [VERB] it in/for 5 seconds but Mary has not finished it.,0.266666667,0.442216639,0.3,0.458257569
+33,34,CONTEXT.telic,John [VERB] it in/for 5 hours but Mary has not finished it.,0.333333333,0.471404521,0.3,0.458257569
+34,35,CONTEXT.telic,John [VERB] it in/for 5 weeks but Mary has not finished it.,0.333333333,0.471404521,0.5,0.5
+35,36,CONTEXT.telic,John [VERB] it in/for 5 years but Mary has not finished it.,0.366666667,0.48189441,0.333333333,0.471404521
+36,37,CONTEXT.atelic,John [VERB] it in/for 5 seconds but he has not finished it.,0.733333333,0.442216639,0.766666667,0.422952585
+37,38,CONTEXT.atelic,John [VERB] it in/for 5 hours but he has not finished it.,0.966666667,0.179505494,0.866666667,0.339934634
+38,39,CONTEXT.atelic,John [VERB] it in/for 5 weeks but he has not finished it.,0.966666667,0.179505494,0.733333333,0.442216639
+39,40,CONTEXT.atelic,John [VERB] it in/for 5 years but he has not finished it.,0.9,0.3,0.966666667,0.179505494
+40,41,GOAL.telic,John [VERB] to the place in/for 2 seconds.,0.3,0.458257569,0.2,0.4
+41,42,GOAL.telic,John [VERB] to the place in/for 2 hours.,0.5,0.5,0.4,0.489897949
+42,43,GOAL.telic,John [VERB] to the place in/for 2 weeks.,0.7,0.458257569,0.466666667,0.498887652
+43,44,GOAL.telic,John [VERB] to the place in/for 2 years.,0.6,0.489897949,0.633333333,0.48189441
+44,45,GOAL.atelic,John [VERB] in the place in/for 2 seconds.,0.833333333,0.372677996,0.8,0.4
+45,46,GOAL.atelic,John [VERB] in the place in/for 2 hours.,0.8,0.4,0.933333333,0.249443826
+46,47,GOAL.atelic,John [VERB] in the place in/for 2 weeks.,0.933333333,0.249443826,0.9,0.3
+47,48,GOAL.atelic,John [VERB] in the place in/for 2 years.,0.966666667,0.179505494,0.966666667,0.179505494
+48,49,REST.resultative,John [VERB] it again and again. He [VERB] it open in/for 5 seconds.,0.366666667,0.48189441,0.366666667,0.48189441
+49,50,REST.resultative,John [VERB] it again and again. He [VERB] it open in/for 5 hours.,0.533333333,0.498887652,0.366666667,0.48189441
+50,51,REST.resultative,John [VERB] it again and again. He [VERB] it open in/for 5 weeks.,0.566666667,0.495535625,0.5,0.5
+51,52,REST.resultative,John [VERB] it again and again. He [VERB] it open in/for 5 years.,0.6,0.489897949,0.666666667,0.471404521
+52,53,REST.resultative,John [VERB] it again and again. He [VERB] it smooth in/for 5 seconds.,0.466666667,0.498887652,0.266666667,0.442216639
+53,54,REST.resultative,John [VERB] it again and again. He [VERB] it smooth in/for 5 hours.,0.7,0.458257569,0.366666667,0.48189441
+54,55,REST.resultative,John [VERB] it again and again. He [VERB] it smooth in/for 5 weeks.,0.6,0.489897949,0.466666667,0.498887652
+55,56,REST.resultative,John [VERB] it again and again. He [VERB] it smooth in/for 5 years.,0.766666667,0.422952585,0.5,0.5
+56,57,REST.base,John [VERB] it again and again. He [VERB] it in/for 5 seconds.,0.833333333,0.372677996,0.866666667,0.339934634
+57,58,REST.base,John [VERB] it again and again. He [VERB] it in/for 5 hours.,0.966666667,0.179505494,0.833333333,0.372677996
+58,59,REST.base,John [VERB] it again and again. He [VERB] it in/for 5 weeks.,0.933333333,0.249443826,0.8,0.4
+59,60,REST.base,John [VERB] it again and again. He [VERB] it in/for 5 years.,0.966666667,0.179505494,0.9,0.3

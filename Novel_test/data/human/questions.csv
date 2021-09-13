@@ -1,0 +1,121 @@
+﻿Number,category,sentence
+1,TRANS.intransitive,John [VERB] in/for 5 seconds.
+2,TRANS.intransitive,John [VERB] in/for 5 hours.
+3,TRANS.intransitive,John [VERB] in/for 5 weeks.
+4,TRANS.intransitive,John [VERB] in/for 5 years.
+5,TRANS.transitive,John [VERB] him in/for 5 seconds.
+6,TRANS.transitive,John [VERB] him in/for 5 hours.
+7,TRANS.transitive,John [VERB] him in/for 5 weeks.
+8,TRANS.transitive,John [VERB] him in/for 5 years.
+9,TRANS.transitive,John [VERB] it in/for 5 seconds.
+10,TRANS.transitive,John [VERB] it in/for 5 hours.
+11,TRANS.transitive,John [VERB] it in/for 5 weeks.
+12,TRANS.transitive,John [VERB] it in/for 5 years.
+13,NOUN.det,John [VERB] three [Noun]s in/for 2 seconds.
+14,NOUN.det,John [VERB] three [Noun]s in/for 2 hours.
+15,NOUN.det,John [VERB] three [Noun]s in/for 2 weeks.
+16,NOUN.det,John [VERB] three [Noun]s in/for 2 years.
+17,NOUN.indet,John [VERB] [Noun]s in/for 2 seconds.
+18,NOUN.indet,John [VERB] [Noun]s in/for 2 hours.
+19,NOUN.indet,John [VERB] [Noun]s in/for 2 weeks.
+20,NOUN.indet,John [VERB] [Noun]s in/for 2 years.
+21,NOUN.deta,John [VERB] a [Noun] in/for 2 seconds.
+22,NOUN.deta,John [VERB] a [Noun] in/for 2 hours.
+23,NOUN.deta,John [VERB] a [Noun] in/for 2 weeks.
+24,NOUN.deta,John [VERB] a [Noun] in/for 2 years.
+25,REST.resultative,John [VERB] it flat in/for 5 seconds.
+26,REST.resultative,John [VERB] it flat in/for 5 hours.
+27,REST.resultative,John [VERB] it flat in/for 5 weeks.
+28,REST.resultative,John [VERB] it flat in/for 5 years.
+29,REST.resultative,John [VERB] it loose in/for 5 seconds.
+30,REST.resultative,John [VERB] it loose in/for 5 hours.
+31,REST.resultative,John [VERB] it loose in/for 5 weeks.
+32,REST.resultative,John [VERB] it loose in/for 5 years.
+33,CONTEXT.telic,John [VERB] it in/for 5 seconds but Mary has not finished it.
+34,CONTEXT.telic,John [VERB] it in/for 5 hours but Mary has not finished it.
+35,CONTEXT.telic,John [VERB] it in/for 5 weeks but Mary has not finished it.
+36,CONTEXT.telic,John [VERB] it in/for 5 years but Mary has not finished it.
+37,CONTEXT.atelic,John [VERB] it in/for 5 seconds but he has not finished it.
+38,CONTEXT.atelic,John [VERB] it in/for 5 hours but he has not finished it.
+39,CONTEXT.atelic,John [VERB] it in/for 5 weeks but he has not finished it.
+40,CONTEXT.atelic,John [VERB] it in/for 5 years but he has not finished it.
+41,GOAL.telic,John [VERB] to the place in/for 2 seconds.
+42,GOAL.telic,John [VERB] to the place in/for 2 hours.
+43,GOAL.telic,John [VERB] to the place in/for 2 weeks.
+44,GOAL.telic,John [VERB] to the place in/for 2 years.
+45,GOAL.atelic,John [VERB] in the place in/for 2 seconds.
+46,GOAL.atelic,John [VERB] in the place in/for 2 hours.
+47,GOAL.atelic,John [VERB] in the place in/for 2 weeks.
+48,GOAL.atelic,John [VERB] in the place in/for 2 years.
+49,REST.resultative,John [VERB] it again and again. He [VERB] it open in/for 5 seconds.
+50,REST.resultative,John [VERB] it again and again. He [VERB] it open in/for 5 hours.
+51,REST.resultative,John [VERB] it again and again. He [VERB] it open in/for 5 weeks.
+52,REST.resultative,John [VERB] it again and again. He [VERB] it open in/for 5 years.
+53,REST.resultative,John [VERB] it again and again. He [VERB] it smooth in/for 5 seconds.
+54,REST.resultative,John [VERB] it again and again. He [VERB] it smooth in/for 5 hours.
+55,REST.resultative,John [VERB] it again and again. He [VERB] it smooth in/for 5 weeks.
+56,REST.resultative,John [VERB] it again and again. He [VERB] it smooth in/for 5 years.
+57,REST.base,John [VERB] it again and again. He [VERB] it in/for 5 seconds.
+58,REST.base,John [VERB] it again and again. He [VERB] it in/for 5 hours.
+59,REST.base,John [VERB] it again and again. He [VERB] it in/for 5 weeks.
+60,REST.base,John [VERB] it again and again. He [VERB] it in/for 5 years.
+1001,filler.IN,John was ill in bed.
+1002,filler.IN,John grew roses in his garden.
+1003,filler.IN,John spoke in a soft and slow voice.
+1004,filler.IN,John mended the hole in the roof.
+1005,filler.IN,John was in great trouble.
+1006,filler.IN,John lived in a good society.
+1007,filler.IN,John was competing in a cross-country meet.
+1008,filler.IN,John took a day trip to see a friend in Maine.
+1009,filler.IN,John was a good baseball player in his youth.
+1010,filler.IN,John wanted to go to a concert in another city.
+1011,filler.IN,John woke from his sleep at three in the morning.
+1012,filler.IN,John put a bottle of beer in the freezer
+1013,filler.IN,John parked his car in front of the convenience store.
+1014,filler.IN,John stared in disbelief at the flooded basement.
+1015,filler.IN,John bought a new home in Montana.
+1016,filler.IN,John had always wanted to participate in a marathon.
+1017,filler.IN,John sneezed in class.
+1018,filler.IN,John was hiking in the desert.
+1019,filler.IN,John found a frog in the creek.
+1020,filler.IN,John worked in a prison.
+1021,filler.IN,John double majored in math and physics.
+1022,filler.IN,John lost both his legs and was in a wheelchair.
+1023,filler.IN,John learned to read in first grade.
+1024,filler.IN,John was dressed in gray.
+1025,filler.ON,John leaned on a dusty bookshelf.
+1026,filler.ON,John had put on a lot of weight recently.
+1027,filler.ON,John and his first girlfriend met on the internet.
+1028,filler.ON,John's dog would always jump on people.
+1029,filler.ON,John was going on a trip to the Amazon.
+1030,filler.ON,John liked listening to the music saved on his phone.
+1031,filler.ON,John was down on his luck.
+1032,filler.ON,John wanted to take his family on a vacation.
+1033,filler.ON,John met a man on the street who needed help.
+1034,filler.ON,John saw a bug on the wall by the bed.
+1035,filler.ON,John and his family watched a movie on Friday.
+1036,filler.ON,John had a hard problem on his hands.
+1037,filler.ON,John always hated jam on bread.
+1038,filler.ON,John was playing video games on his computer.
+1039,filler.ON,John's parents planted a maple tree on the day he was born.
+1040,filler.ON,John liked to chew on the cap of his pen.
+1041,filler.ON,John was about to step on stage at the underground club.
+1042,filler.ON,John was the newest swimmer on a prestigous swim team.
+1043,filler.ON,John was painting the center line on the highway.
+1044,filler.ON,John was on his way to violin practice when he saw a cat.
+1045,filler.ON,John was on a date with a girl he really liked.
+1046,filler.ON,John sat on his sunglasses and broke them.
+1047,filler.ON,John became tired of all of the shows on TV.
+1048,filler.ON,John was talking on the phone.
+1049,filler.IN,John put a tape recorder ___  his shirt pocket all day.
+1050,filler.IN,The patient given to John was ___  the most horrific condition.
+1051,filler.IN,John still felt guilty about fighting ___  the war.
+1052,filler.IN,John was hiding ___  the basement.
+1053,filler.ON,John's best friend always props his feet up ___  the table.
+1054,filler.ON,John started to watch a movie ___  Channel 5.
+1055,filler.ON,John put ___  his new pirate costume and was ready to trick or treat.
+1056,filler.ON,John was out hiking ___  a trail.
+1057,filler.IN,John thought he could catch the biggest fish ___  the pond.
+1058,filler.IN,John learned a new word ___  school.
+1059,filler.ON,John was starting school ___  Monday.
+1060,filler.ON,John delivered a lecture ___  theoretical Physics.

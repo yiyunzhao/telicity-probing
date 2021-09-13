@@ -1,0 +1,100 @@
+,QuestionNumber,sentence,category,expected choice,response
+0,1,John drained the pool ___  3 hours.,verb-type,both,0.338983051
+1,2,John learned French ___  two years.,verb-type,both,0.593220339
+2,3,John read a book ___  an hour.,verb-type,both,0.694915254
+3,4,John roasted the chicken ___  an hour.,verb-type,both,0.966101695
+4,5,John wrote a dissertation ___  a year.,verb-type,both,0.186440678
+5,6,John baked ___  one day.,verb-type,for,0.898305085
+6,7,John drank ___  half an hour.,verb-type,for,0.949152542
+7,8,John listened ___  10 minutes.,verb-type,for,1
+8,9,John ran ___  an hour.,verb-type,for,1
+9,10,John wrote ___  a day.,verb-type,for,0.966101695
+10,11,John looked at the painting ___  10 minutes.,verb-type,for,0.983050847
+11,12,John loved her ___  two years.,verb-type,for,1
+12,13,John spoke the language ___  10 years.,verb-type,for,0.966101695
+13,14,John ate ___  5 hours.,verb-type,for,0.983050847
+14,15,John read ___  an hour.,verb-type,for,1
+15,16,John spoke ___  2 hours at the meeting.,verb-type,for,1
+16,17,John swam ___  30 minutes,verb-type,for,1
+17,18,John hated him ___  20 years.,verb-type,for,1
+18,19,John listened to the lecture ___  2 hours.,verb-type,for,1
+19,20,John recognized the murderer ___  5 seconds.,verb-type,in,0
+20,21,John died ___  10 minutes.,verb-type,in,0.525423729
+21,22,John finished his soda ___  ten minutes.,verb-type,in,0
+22,23,John killed the chicken ___  five minutes.,verb-type,in,0.033898305
+23,24,John solved the puzzle ___  two hours.,verb-type,in,0.016949153
+24,25,John figured out the problem ___  half an hour.,verb-type,in,0.016949153
+25,26,John filled up the tank ___  20 minutes. ,verb-type,in,0.254237288
+26,27,John ran out of money ___  one month.,verb-type,in,0.169491525
+27,28,John replied to the email ___  one day.,verb-type,in,0.016949153
+28,29,John completed his homework ___  an hour.,verb-type,in,0.033898305
+29,30,John discovered the cave ___  two days.,verb-type,in,0.050847458
+30,31,John found his keys ___  two minutes.,verb-type,in,0.016949153
+31,32,John reached the summit ___  four hours.,verb-type,in,0
+32,33,John spotted the mistake ___  5 minutes.,verb-type,in,0
+33,34,John baked the weding cake ___  a day.,Boundaries,in,0.084745763
+34,35,John baked a wedding cake ___  a day.,Boundaries,in,0.050847458
+35,36,John baked five wedding cakes ___  a day.,Boundaries,in,0.016949153
+36,37,John baked wedding cakes ___  a day.,Boundaries,for,0.762711864
+37,38,John baked many wedding cakes ___  a day.,Boundaries,in,0
+38,39,John built the houses ___  10 months.,Boundaries,in,0.118644068
+39,40,John built three houses ___  10 months.,Boundaries,in,0.033898305
+40,41,John built houses ___  10 months.,Boundaries,for,0.796610169
+41,42,John built a house ___  10 months.,Boundaries,in,0.016949153
+42,43,John built several houses ___  10 months.,Boundaries,in,0.06779661
+43,44,John cooked the turkey ___  a day.,Boundaries,in,0.389830508
+44,45,John cooked five turkeys ___  a day.,Boundaries,in,0.016949153
+45,46,John cooked turkeys ___  a day.,Boundaries,for,0.813559322
+46,47,John cooked a turkey ___  a day.,Boundaries,in,0.254237288
+47,48,John cooked some turkeys ___  a day.,Boundaries,in,0.440677966
+48,49,John drank the beer ___  half an hour.,Boundaries,in,0.237288136
+49,50,John drank beer ___  half an hour.,Boundaries,for,0.93220339
+50,51,John drank two beers ___  half an hour.,Boundaries,in,0.06779661
+51,52,John drank a beer ___  half an hour.,Boundaries,in,0.338983051
+52,53,John drank several beers ___  half an hour.,Boundaries,in,0.06779661
+53,54,John ate burgers ___  5 hours.,Boundaries,for,0.796610169
+54,55,John ate a burger ___  15 minutes.,Boundaries,in,0.050847458
+55,56,John ate many burgers ___  5 hours.,Boundaries,in,0.118644068
+56,57,John ate the burgers ___  5 hours.,Boundaries,in,0.186440678
+57,58,John ate five burgers ___  5 hours.,Boundaries,in,0.033898305
+58,59,John ran laps ___  an hour.,Boundaries,for,0.966101695
+59,60,John ran two laps ___  an hour.,Boundaries,in,0.06779661
+60,61,John ran a lap ___  an hour.,Boundaries,in,0.101694915
+61,62,John ran many laps ___  an hour.,Boundaries,in,0.254237288
+62,63,John ran the lap ___  an hour.,Boundaries,in,0.152542373
+63,64,John beat the man ___  10 minutes.,resultative clauses,for,0.525423729
+64,65,John beat the man dead ___  10 minutes.,resultative clauses,in,0.237288136
+65,66,John filed the rock smooth ___  2 hours.,resultative clauses,in,0.372881356
+66,67,John filed the rock ___  2 hours.,resultative clauses,for,0.847457627
+67,68,John hammered the metal flat ___  2 hours.,resultative clauses,in,0.440677966
+68,69,John hammered the metal ___  2 hours.,resultative clauses,for,0.966101695
+69,70,John kicked the door down ___  5 minutes.,resultative clauses,in,0.169491525
+70,71,John kicked the door ___  5 minutes.,resultative clauses,for,0.898305085
+71,72,John painted the wall ___  one day.,resultative clauses,for,0.118644068
+72,73,John painted the wall blue ___  one day.,resultative clauses,in,0
+73,74,John punched the door ___  10 minutes.,resultative clauses,for,0.966101695
+74,75,John punched the door down ___  10 minutes.,resultative clauses,in,0.152542373
+75,76,John stomped the grass ___  2 hours.,resultative clauses,for,0.966101695
+76,77,John stomped the grass flat ___  2 hours.,resultative clauses,in,0.610169492
+77,78,John wiped the table ___  10 minutes.,resultative clauses,for,0.847457627
+78,79,John wiped the table clean ___  10 minutes.,resultative clauses,in,0.338983051
+79,80,John sawed the huge log ___  3 hours.,resultative clauses,for,0.677966102
+80,81,John sawed the huge log in half ___  3 hours.,resultative clauses,in,0.169491525
+81,82,John drained the pool ___  3 hours and the pool is still draining.,word knowledge,for,0.949152542
+82,83,John drained the pool ___  3 hours while his friends needed to take another two hours to finish.,word knowledge,in,0.322033898
+83,84,John learned French ___  two years and he is still learning French.,word knowledge,for,0.898305085
+84,85,John learned French ___  two years but took five years to master English.,word knowledge,in,0.322033898
+85,86,John lost the wallet ___  3 hours once he reached the park.,word knowledge,in,0.644067797
+86,87,John lost his pet ___  3 hours while he was in the park.,word knowledge,for,0.966101695
+87,88,John read a book ___  an hour and he has not finished it.,word knowledge,for,0.966101695
+88,89,John read the book ___  an hour but Mary has not finished it.,word knowledge,in,0.169491525
+89,90,John roasted the chicken ___  an hour and then served it up.,word knowledge,in,0.915254237
+90,91,John roasted the chicken ___  an hour but the chicken is still raw.,word knowledge,for,0.983050847
+91,92,John wrote a dissertation ___  three months and he graduated immediately.,word knowledge,in,0.118644068
+92,93,John wrote a dissertation ___  three months but did not complete it till his graduation.,word knowledge,for,0.661016949
+93,94,John wrote this long letter ___  a day.,word knowledge,in,0.06779661
+94,95,John wrote this long letter ___  the whole day.,word knowledge,for,0.830508475
+95,96,John painted the wall of his bedroom ___  3 hours and he is only halfway done now.,word knowledge,for,0.898305085
+96,97,John painted the wall of his bedroom ___  3 hours so now he has more time to paint others.,word knowledge,in,0.084745763
+97,98,John baked the cake ___  an hour and he is still baking it.,word knowledge,for,0.966101695
+98,99,John baked the cake ___  an hour which is faster than he expected.,word knowledge,in,0.101694915

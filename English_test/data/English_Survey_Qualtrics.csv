@@ -1,0 +1,200 @@
+﻿QuestionNumber,sentence,category,expected choice
+1,John drained the pool ___  3 hours.,verb-type,both
+2,John learned French ___  two years.,verb-type,both
+3,John read a book ___  an hour.,verb-type,both
+4,John roasted the chicken ___  an hour.,verb-type,both
+5,John wrote a dissertation ___  a year.,verb-type,both
+6,John baked ___  one day.,verb-type,for
+7,John drank ___  half an hour.,verb-type,for
+8,John listened ___  10 minutes.,verb-type,for
+9,John ran ___  an hour.,verb-type,for
+10,John wrote ___  a day.,verb-type,for
+11,John looked at the painting ___  10 minutes.,verb-type,for
+12,John loved her ___  two years.,verb-type,for
+13,John spoke the language ___  10 years.,verb-type,for
+14,John ate ___  5 hours.,verb-type,for
+15,John read ___  an hour.,verb-type,for
+16,John spoke ___  2 hours at the meeting.,verb-type,for
+17,John swam ___  30 minutes,verb-type,for
+18,John hated him ___  20 years.,verb-type,for
+19,John listened to the lecture ___  2 hours.,verb-type,for
+20,John recognized the murderer ___  5 seconds.,verb-type,in
+21,John died ___  10 minutes.,verb-type,in
+22,John finished his soda ___  ten minutes.,verb-type,in
+23,John killed the chicken ___  five minutes.,verb-type,in
+24,John solved the puzzle ___  two hours.,verb-type,in
+25,John figured out the problem ___  half an hour.,verb-type,in
+26,John filled up the tank ___  20 minutes. ,verb-type,in
+27,John ran out of money ___  one month.,verb-type,in
+28,John replied to the email ___  one day.,verb-type,in
+29,John completed his homework ___  an hour.,verb-type,in
+30,John discovered the cave ___  two days.,verb-type,in
+31,John found his keys ___  two minutes.,verb-type,in
+32,John reached the summit ___  four hours.,verb-type,in
+33,John spotted the mistake ___  5 minutes.,verb-type,in
+34,John baked the wedding cake ___  a day.,Boundaries,in
+35,John baked a wedding cake ___  a day.,Boundaries,in
+36,John baked five wedding cakes ___  a day.,Boundaries,in
+37,John baked wedding cakes ___  a day.,Boundaries,for
+38,John baked many wedding cakes ___  a day.,Boundaries,in
+39,John built the houses ___  10 months.,Boundaries,in
+40,John built three houses ___  10 months.,Boundaries,in
+41,John built houses ___  10 months.,Boundaries,for
+42,John built a house ___  10 months.,Boundaries,in
+43,John built several houses ___  10 months.,Boundaries,in
+44,John cooked the turkey ___  a day.,Boundaries,in
+45,John cooked five turkeys ___  a day.,Boundaries,in
+46,John cooked turkeys ___  a day.,Boundaries,for
+47,John cooked a turkey ___  a day.,Boundaries,in
+48,John cooked some turkeys ___  a day.,Boundaries,in
+49,John drank the beer ___  half an hour.,Boundaries,in
+50,John drank beer ___  half an hour.,Boundaries,for
+51,John drank two beers ___  half an hour.,Boundaries,in
+52,John drank a beer ___  half an hour.,Boundaries,in
+53,John drank several beers ___  half an hour.,Boundaries,in
+54,John ate burgers ___  5 hours.,Boundaries,for
+55,John ate a burger ___  15 minutes.,Boundaries,in
+56,John ate many burgers ___  5 hours.,Boundaries,in
+57,John ate the burgers ___  5 hours.,Boundaries,in
+58,John ate five burgers ___  5 hours.,Boundaries,for
+59,John ran laps ___  an hour.,Boundaries,for
+60,John ran two laps ___  an hour.,Boundaries,in
+61,John ran a lap ___  an hour.,Boundaries,in
+62,John ran many laps ___  an hour.,Boundaries,in
+63,John ran the lap ___  an hour.,Boundaries,in
+64,John beat the man ___  10 minutes.,resultative clauses,for
+65,John beat the man dead ___  10 minutes.,resultative clauses,in
+66,John filed the rock smooth ___  2 hours.,resultative clauses,in
+67,John filed the rock ___  2 hours.,resultative clauses,for
+68,John hammered the metal flat ___  2 hours.,resultative clauses,in
+69,John hammered the metal ___  2 hours.,resultative clauses,for
+70,John kicked the door down ___  5 minutes.,resultative clauses,in
+71,John kicked the door ___  5 minutes.,resultative clauses,for
+72,John painted the wall ___  one day.,resultative clauses,for
+73,John painted the wall blue ___  one day.,resultative clauses,in
+74,John punched the door ___  10 minutes.,resultative clauses,for
+75,John punched the door down ___  10 minutes.,resultative clauses,in
+76,John stomped the grass ___  2 hours.,resultative clauses,for
+77,John stomped the grass flat ___  2 hours.,resultative clauses,in
+78,John wiped the table ___  10 minutes.,resultative clauses,for
+79,John wiped the table clean ___  10 minutes.,resultative clauses,in
+80,John sawed the huge log ___  3 hours.,resultative clauses,for
+81,John sawed the huge log in half ___  3 hours.,resultative clauses,in
+82,John drained the pool ___  3 hours and the pool is still draining.,word knowledge,for
+83,John drained the pool ___  3 hours while his friends needed to take another two hours to finish.,word knowledge,in
+84,John learned French ___  two years and he is still learning French.,word knowledge,for
+85,John learned French ___  two years but took five years to master English.,word knowledge,in
+86,John lost the wallet ___  3 hours once he reached the park.,word knowledge,in
+87,John lost his pet ___  3 hours while he was in the park.,word knowledge,for
+88,John read a book ___  an hour and he has not finished it.,word knowledge,for
+89,John read the book ___  an hour but Mary has not finished it.,word knowledge,in
+90,John roasted the chicken ___  an hour and then served it up.,word knowledge,in
+91,John roasted the chicken ___  an hour but the chicken is still raw.,word knowledge,for
+92,John wrote a dissertation ___  three months and he graduated immediately.,word knowledge,in
+93,John wrote a dissertation ___  three months but did not complete it till his graduation.,word knowledge,for
+94,John wrote this long letter ___  a day.,word knowledge,in
+95,John wrote this long letter ___  the whole day.,word knowledge,for
+96,John painted the wall of his bedroom ___  3 hours and he is only halfway done now.,word knowledge,for
+97,John painted the wall of his bedroom ___  3 hours so now he has more time to paint others.,word knowledge,in
+98,John baked the cake ___  an hour and he is still baking it.,word knowledge,for
+99,John baked the cake ___  an hour which is faster than he expected.,word knowledge,in
+1001,John was ill ___  bed.,filler,in
+1002,John grew roses ___  his garden.,filler,in
+1003,John spoke ___  a soft and slow voice.,filler,in
+1004,John mended the hole ___  the roof.,filler,in
+1005,John was ___  great trouble.,filler,in
+1006,John lived ___  a good society.,filler,in
+1007,John was competing ___  a cross-country meet.,filler,in
+1008,John took a day trip to see a friend ___  Maine.,filler,in
+1009,John was a good baseball player ___  his youth.,filler,in
+1010,John wanted to go to a concert ___  another city.,filler,in
+1011,John woke from his sleep at three ___  the morning.,filler,in
+1012,John put a bottle of beer ___  the freezer,filler,in
+1013,John parked his car ___  front of the convenience store.,filler,in
+1014,John stared ___  disbelief at the flooded basement.,filler,in
+1015,John bought a new home ___  Montana.,filler,in
+1016,John had always wanted to participate ___  a marathon.,filler,in
+1017,John sneezed ___  class.,filler,in
+1018,John was hiking ___  the desert.,filler,in
+1019,John found a frog ___  the creek.,filler,in
+1020,John worked ___  a prison.,filler,in
+1021,John double majored ___  math and physics.,filler,in
+1022,John lost both his legs and was ___  a wheelchair.,filler,in
+1023,John learned to read ___  first grade.,filler,in
+1024,John was dressed ___  gray.,filler,in
+1025,John had a hard time ___  school.,filler,in
+1026,John spoke ___  a cheery voice.,filler,in
+1027,John cried ___  agony.,filler,in
+1028,John retired from his job ___  2012.,filler,in
+1029,John read a riddle ___  a newspaper.,filler,in
+1030,John recently graduated from college with his degree ___  art.,filler,in
+1031,John wanted to be ___  the Navy.,filler,in
+1032,John hated living ___  a small town.,filler,in
+1033,John was going for a nice walk ___  the mountains.,filler,in
+1034,John loved to garden ___  his backyard.,filler,in
+1035,John was studying abroad ___  London.,filler,in
+1036,John searched for his drinking cup ___  the house.,filler,in
+1037,John saw a new bike ___  the shop one day.,filler,in
+1038,John was popular ___  town.,filler,in
+1039,John was discussing the new chapter ___  Physics.,filler,in
+1040,John worked hard every day ___  the mine.,filler,in
+1041,John wasn't sure what he was ___  the mood for.,filler,in
+1042,John began to argue ___  the middle of lunch.,filler,in
+1043,John got a letter ___  the mail today.,filler,in
+1044,John couldn't find his child ___  the crowd.,filler,in
+1045,John thought he could catch the biggest fish ___  the pond.,filler,in
+1046,John learned a new word ___  school.,filler,in
+1047,John put a tape recorder ___  his shirt pocket all day.,filler,in
+1048,The patient given to John was ___  the most horrific condition.,filler,in
+1049,John still felt guilty about fighting ___  the war.,filler,in
+1050,John was hiding ___  the basement.,filler,in
+1051,John leaned ___  a dusty bookshelf.,filler,on
+1052,John had put ___  a lot of weight recently.,filler,on
+1053,John and his first girlfriend met ___  the internet.,filler,on
+1054,John's dog would always jump ___  people.,filler,on
+1055,John was going ___  a trip to the Amazon.,filler,on
+1056,John liked listening to the music saved ___  his phone.,filler,on
+1057,John was down ___  his luck.,filler,on
+1058,John wanted to take his family ___  a vacation.,filler,on
+1059,John met a man ___  the street who needed help.,filler,on
+1060,John saw a bug ___  the wall by the bed.,filler,on
+1061,John and his family watched a movie ___  Friday.,filler,on
+1062,John had a hard problem ___  his hands.,filler,on
+1063,John always hated jam ___  bread.,filler,on
+1064,John was playing video games ___  his computer.,filler,on
+1065,John's parents planted a maple tree ___  the day he was born.,filler,on
+1066,John liked to chew ___  the cap of his pen.,filler,on
+1067,John was about to step ___  stage at the underground club.,filler,on
+1068,John was the newest swimmer ___  a prestigous swim team.,filler,on
+1069,John was painting the center line ___  the highway.,filler,on
+1070,John was ___  his way to violin practice when he saw a cat.,filler,on
+1071,John was ___  a date with a girl he really liked.,filler,on
+1072,John sat ___  his sunglasses and broke them.,filler,on
+1073,John became tired of all of the shows ___  TV.,filler,on
+1074,John played ___  the tennis team.,filler,on
+1075,John wanted to go ___  a vacation.,filler,on
+1076,John was talking ___  the phone.,filler,on
+1077,John was invited as a guest ___  a TV show.,filler,on
+1078,John was reading Infinite Jest ___  the bench today.,filler,on
+1079,John and other kids all climbed ___  the school bus.,filler,on
+1080,John went for a fun drive ___  Sunday.,filler,on
+1081,John went ___  a class trip.,filler,on
+1082,John and his cousins were playing ___  the grass in front of my house.,filler,on
+1083,John found a funny video ___  the internet.,filler,on
+1084,John was ___  a plane back home yesterday.,filler,on
+1085,John was walking ___  the busy street.,filler,on
+1086,John went shopping ___  the weekends.,filler,on
+1087,John set out ___  a long car ride.,filler,on
+1088,John learned a new trick ___  his skateboard.,filler,on
+1089,John was excited to have his friend Mason sleepover ___  Friday.,filler,on
+1090,John had ___  his best shirt and was ready.,filler,on
+1091,John noticed a merging sign several feet away ___  the highway.,filler,on
+1092,John headed downtown early ___  the 4th to see the parade.,filler,on
+1093,John and his wife could not agree ___  a boy name.,filler,on
+1094,John and his son went ___  a big hunting trip.,filler,on
+1095,John was starting school ___  Monday.,filler,on
+1096,John delivered a lecture ___  theoretical Physics.,filler,on
+1097,John's best friend always props his feet up ___  the table.,filler,on
+1098,John started to watch a movie ___  Channel 5.,filler,on
+1099,John put ___  his new pirate costume and was ready to trick or treat.,filler,on
+1100,John was out hiking ___  a trail.,filler,on
